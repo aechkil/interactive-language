@@ -1,0 +1,57 @@
+.horrible-text{
+    color: plum;
+    background-color: black;
+    font-size: 15px;
+    text-align: center;
+    width: 9rem;
+    height: 5rem;
+    overflow: auto;
+    padding: 8px 16px;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(172, 248, 172);
+    border-radius: 50px;
+    margin: 32px;
+    font-family: "Oswald"
+
+}
+body{
+    font-family: "Oswald";
+}
+.horrible-text:hover{
+    cursor:pointer;
+    background-color: rgb(188, 212, 188);
+}
+.horrible-text:active{
+    cursor: pointer;
+    background-color: pink;
+}
+p {
+ font-family: "subway-new-york-std", sans-serif;
+ font-size: 64px;
+ line-height: normal;
+ color: rgba(96, 76, 54, 1);
+}
+a{
+ text-decoration: none;
+}
+a{ 
+ font-size:32px
+ text-align:left;
+ font-family: "loos-condensed", sans-serif;
+ font-style:normal;
+ font-weight:500;
+ line-height:normal;
+ color: rgba(96, 76, 54, 1);
+}
+.headlines {
+   color: rgba(96, 76, 54, 1);    
+}
+h6 { 
+   color: rgba(96, 76, 54, 1);
+    text-align: left;
+    font-family: "loos-condensed", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
