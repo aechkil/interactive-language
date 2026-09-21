@@ -1,28 +1,36 @@
 body {
-    font-family: "loos-condensed",sans-serid;
+    font-family: "loos-condensed",sans-serif;
     color:rgba(96, 76, 54, 1);
 }
-a{
-    text-decoration: none;
-    color: rgba(96,76,54,1)
-}
-.headline{
+
+h2 {
     font-family: "subway-new-york-std",sans-serif;
-    font-size: 64px;
+    font-size: 36px;
     font-weight: 400px;
     line-height: normal;
     text-align: left;
 }
 .subheadline {
-    font-family: "loos-condensed", sans-serid;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: normal;
-}
-p {
     font-family: "loos-condensed", sans-serif;
     font-size: 18px;
-    font-weight: 700px;
+    font-weight: 200;
+    line-height: normal;
+}
+a{
+    text-decoration: none;
+    color: rgba(96,76,54,1)
+}
+.smallnav{
+    font-family: "loos-condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: normal;
+
+}
+.headline {
+    font-family: "loos-condensed", sans-serif;
+    font-size: 100px;
+    font-weight: 700;
     line-height: normal;
 }
 
@@ -50,4 +58,13 @@ p {
 .horrible-text:active{
     cursor: pointer;
     background-color: pink;
+}
+a:hover{
+    cursor:pointer;
+    color:#D0D5CC;
+}
+.traintracks {
+    width: 100vw;
+    height: 1523px;
+    opacity: 0.50;
 }
