@@ -2,7 +2,10 @@ body {
     font-family: "loos-condensed",sans-serif;
     color:rgba(96, 76, 54, 1);
 }
-
+.header {
+    background-color: rgb(208,213,204);
+    width: wv;
+}
 h2 {
     font-family: "subway-new-york-std",sans-serif;
     font-size: 36px;
@@ -16,11 +19,11 @@ h2 {
     font-weight: 200;
     line-height: normal;
 }
-a{
+a {
     text-decoration: none;
     color: rgba(96,76,54,1)
 }
-.smallnav{
+.smallnav {
     font-family: "loos-condensed", sans-serif;
     font-size: 18px;
     font-weight: 200;
@@ -33,8 +36,16 @@ a{
     font-weight: 700;
     line-height: normal;
 }
-
-.horrible-text{
+p2 {
+    color: rgb(237,214,235);
+    font-family: "loos-condensed", sans-serif;
+    font-size: 32px;
+}
+.qbg {
+    background-color: rgb(96,76,54,);
+    width: 100wv;
+}
+.horrible-text {
     color: plum;
     background-color: black;
     font-size: 15px;
@@ -48,23 +59,44 @@ a{
     border-color: rgb(172, 248, 172);
     border-radius: 50px;
     margin: 32px;
-    font-family: "loos-condensed", sans-serif
+    font-family: "loos-condensed", sans-serif;
 
 }
-.horrible-text:hover{
+.horrible-text:hover {
     cursor:pointer;
     background-color: rgb(188, 212, 188);
 }
-.horrible-text:active{
+.horrible-text:active {
     cursor: pointer;
     background-color: pink;
 }
-a:hover{
+a:hover {
     cursor:pointer;
-    color:#D0D5CC;
+    color:#EDD6EB;
 }
 .traintracks {
     width: 100vw;
-    height: 1523px;
     opacity: 0.50;
+}
+.deathhog {
+    width: 100vw;
+    opacity: 0.50;
+}
+.me {
+    width: 500px;
+    height: 500px;
+}
+.stripes {
+    width: 100vw;
+}
+.headbox {
+    width: 100vw
+}
+a:hover {
+    cursor: pointer;
+
+}
+.paper{
+    width: 1000px;
+    height: 900px;
 }
