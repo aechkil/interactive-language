@@ -6,6 +6,11 @@ body {
     background-color: rgb(208,213,204);
     width: wv;
 }
+.footer {
+    background-color: rgb(208,213,204);
+    width: wv;
+}
+
 h2 {
     font-family: "subway-new-york-std",sans-serif;
     font-size: 36px;
@@ -42,7 +47,7 @@ p2 {
     font-size: 32px;
 }
 .qbg {
-    background-color: rgb(96,76,54,);
+    background-color: rgb(96,76,54);
     width: 100wv;
 }
 .horrible-text {
@@ -97,6 +102,30 @@ a:hover {
 
 }
 .paper{
-    width: 1000px;
+    width: 1500px;
+    height: 950px;
+}
+.horse{
+    width: 700px;
     height: 900px;
+}
+.sticker{
+    width: 700px;
+    height: 900px;
+}
+.sunlogo{
+    width: 800px;
+    height: 700px;
+}
+.okcomputer{
+    width: 1000px;
+    height: 800px;
+}
+.dd{
+    width: 1000px;
+    height: 800px;
+}
+.ethel{
+    width: 1000px;
+    height: 800px;
 }
