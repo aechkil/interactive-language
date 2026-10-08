@@ -4,17 +4,31 @@ body {
 }
 .header {
     /* background-color: rgb(208,213,204); */
-    width: wv;
+    width: 100wv;
     display: flex;
     flex-direction: row;
-    gap: 0.5rem;
-}
-.footer {
-    background-color: rgb(208,213,204);
-    width: wv;
+    justify-content: start;
+    align-items: center;
+    gap: 2.5rem;
+    align-items: center;
 }
 
 h2 {
+
+    font-family: "subway-new-york-std",sans-serif;
+    font-size: 36px;
+    font-weight: 400px;
+    line-height: normal;
+    text-align: center;
+}
+h1{
+    font-family: "subway-new-york-std",sans-serif;
+    font-size: 36px;
+    font-weight: 400px;
+    line-height: normal;
+    text-align: center;
+}
+.bottom-aech{
     font-family: "subway-new-york-std",sans-serif;
     font-size: 36px;
     font-weight: 400px;
@@ -28,14 +42,13 @@ h2 {
     line-height: normal;
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    gap: 0.5rem;
-    
+    justify-content: flex-end;
+    gap: 25px;
+   
 }
 a {
     text-decoration: none;
-    color: rgba(96,76,54,1)
+    color:rgb(208,213,204);
 }
 .smallnav {
     font-family: "loos-condensed", sans-serif;
@@ -44,10 +57,16 @@ a {
     line-height: normal;
     display: flex;
     flex-direction: row;
-    background-color: rgb(208,213,204);
-    justify-content: space-between;
-    gap: 1.0rem;
+    background-color:rgb(237,214,235);
+    justify-content: center;
+    gap: 30px;
+    
 
+}
+.footer {
+    width: wv;
+    background-color: rgb(237,214,235);
+    color:rgba(96, 76, 54, 1);
 }
 .headline {
     font-family: "loos-condensed", sans-serif;
@@ -63,6 +82,9 @@ p2 {
 .qbg {
     background-color: rgb(96,76,54);
     width: 100wv;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .horrible-text {
     color: plum;
@@ -106,7 +128,8 @@ a:hover {
     height: 500px;
 }
 .stripes {
-    width: 100vw;
+    width: 1200px;
+    height: 400px;
 }
 .headbox {
     width: 100vw
@@ -115,9 +138,11 @@ a:hover {
     cursor: pointer;
 
 }
-.paper{
-    width: 1500px;
-    height: 950px;
+.paperstripe{
+    width: 100vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .horse{
     width: 700px;
@@ -148,6 +173,7 @@ a:hover {
     flex-direction: column;
     gap: 1.5rem;
     justify-content: space-evenly;
+    
 }
 .child{
     display: flex;
@@ -158,11 +184,11 @@ a:hover {
     .container{
         display: flex;
         flex-direction: row;
+        text-align: center;
         gap: 1.5rem;
-
     }
 }
-.heromessage{
+.hero-message{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -171,7 +197,7 @@ a:hover {
     text-align: center;
 }
 .hero-background{
-    background-image: url('./assets/tracks.JPG');
+    background-image: url('./assets/tracks.jpg');
     background-blend-mode: lighten;
     background-size: 100%;
     width: 100vw;
@@ -184,6 +210,22 @@ a:hover {
     line-height: normal;
     display: flex;
     flex-direction: row;
-    background-color: rgb(208,213,204);
-    justify-content: space-between;
+    background-color:rgb(237,214,235);
+    justify-content: center;
+    color:rgba(96, 76, 54, 1);
+}
+.button{
+    color: rgb(237,214,235);
+    background-color: rgba(208,213,204,0.4);
+    text-align: center;
+    border-radius: 3rem;
+    width: 100px;
+    heigth: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button:hover{
+    cursor: pointer;
+    color: rgb(208,213,204);
 }
