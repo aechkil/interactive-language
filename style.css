@@ -44,7 +44,30 @@ h1{
     flex-direction: row;
     justify-content: flex-end;
     gap: 25px;
-   
+
+}
+.navbar{
+    display: none;
+    background: #ff0000;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+   }
+.hamburger {
+color: #ff0000;
+font-size: 20px;
+}
+.closex {
+    font-size: 40px;
+    color: #00ff00;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 a {
     text-decoration: none;
@@ -57,7 +80,7 @@ a {
     line-height: normal;
     display: flex;
     flex-direction: row;
-    background-color:rgb(237,214,235);
+    background-color:rgba(208, 213,204,100);
     justify-content: center;
     gap: 30px;
     
@@ -65,8 +88,8 @@ a {
 }
 .footer {
     width: wv;
-    background-color: rgb(237,214,235);
-    color:rgba(96, 76, 54, 1);
+    background-color: rgba(208, 213,204,100);
+    color:rgb(237,214,235);
 }
 .headline {
     font-family: "loos-condensed", sans-serif;
@@ -180,14 +203,6 @@ a:hover {
     flex-direction: column;
     gap: 8px;
 }
-@media screen and (min-width:320px) {
-    .container{
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        gap: 1.5rem;
-    }
-}
 .hero-message{
     display: flex;
     align-items: center;
@@ -228,4 +243,50 @@ a:hover {
 .button:hover{
     cursor: pointer;
     color: rgb(208,213,204);
+}
+@media screen and (min-width:768px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    .navbar{
+        display: block;
+        background: none;
+        position: relative;
+        width: 1;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+   }
+   .hamburger{
+    display: none;
+   }
+   .closex{
+    display: none;
+   }
+}
+.stickerbar{
+    width: 100vw;
+}
+.skull{
+    width: 100vw;
+}
+.aboutlayout{
+    width: 100vw;
+}
+.undersec1{
+    background-color: rgba(96,76,54,100);
+}
+.undersec2{
+    background-color: rgba(96,76,54,100);
+}
+.undersec3{
+    background-color: rgba(96,76,54,100);
+    margin-bottom: 4rem;
 }
